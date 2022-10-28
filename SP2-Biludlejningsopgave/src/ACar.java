@@ -1,8 +1,8 @@
 abstract class ACar implements Car {
 
     String registrationNumber;
-    String make;
-    String model;
+    final String make;
+    final String model;
     final int numberOfDoors;
 
     public ACar(String registrationNumber, String make, String model, int numberOfDoors){
